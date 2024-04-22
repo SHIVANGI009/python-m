@@ -1,0 +1,65 @@
+Q1.Run for loop and find the total sum of first 20 natural numbers.
+
+sum=0
+for i in range(1,21):
+    sum=sum+i
+print(sum)
+============================================================================
+Q2.Run for loop and find the total sum of last 20 ,3 digit natural numbers.
+
+sum=0
+for i in range(18,21):
+    sum=sum+i
+print(sum)
+=============================================================================
+Q3. Run for loop and find the product & average of any 20 natural numbers.
+
+product=1
+avg=0
+for i in range(1,21):
+    product*=i
+    avg+=i
+    total=avg/20
+print(product,total)
+==============================================================================
+Q4. print a multiplication table of a number given by a user.
+
+num=int(input("enter your number: "))
+for i in range(1,11):
+    print(num*i) 
+==============================================================================
+Q5. find out the sum of the power of starting 6 number.
+
+sum=0
+for i in range(1,7):
+    power=i**i
+    sum=sum+power 
+print(sum)    
+==============================================================================
+Q6. take a string from the user and find out the total consonant which are 
+available in a string.
+
+total=0
+for ch in (input("enter your character: ")):
+    if(ch!="a" and ch!="e" and ch!="i" and ch!="o" and ch!="u"):
+        print("Consonant",ch)
+        total+=1
+print(total)
+==============================================================================
+Q7. take a int number from the user and find out the total sum, average and 
+the product of that numbers from 1 to the input provided only for odd values.
+
+num=int(input("Enter a number: "))
+sum=0
+product=1
+avg=0
+for i in range(1,num+1):
+    if(i%3==0):
+        sum=sum+i
+        product*=i
+        avg+=i
+        total=avg/20
+print(sum)
+print(product)
+print(total)
+==============================================================================
