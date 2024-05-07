@@ -1,0 +1,38 @@
+Q1. print list.
+num=[1,2,3,4]
+print(type(num))
+====================================================================================
+Q2. Write a function to calculate the sum of all elements in a given list.
+num=[2,4,6]
+sum=0
+for i in num:
+  sum+=i
+print(sum)
+=====================================================================================
+Q3.  Write a function to find the largest element in a list.
+num=[2,4,6]# list of numbers
+num.sort()# sorting the list
+print("largest number in the list is:",num[-1])
+=====================================================================================
+Q4. Write a function to reverse a given list.
+num=[2,4,6]
+print("the reverse number of list is:",num[::-1])
+=====================================================================================
+Q5. Write a function to check if a given string is a palindrome or not.
+a="racecar"
+b="" # Initializes an empty string b.
+for i in a:
+  b=i+b # This effectively reverses the string a and stores it in b.
+if(a==b): # Checks if the original string a is equal to the reversed string b.
+  print("palindrome")
+else:
+  print("not palindrome") 
+=====================================================================================
+Q6. Write a function to count the number of even numbers in a given list.
+num=[1,2,3,4,5,6]
+count=0
+for i in num:
+  if(i%2==0):
+    count+=1
+print("total even numbers in list are:",count)
+=====================================================================================
